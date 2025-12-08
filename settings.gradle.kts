@@ -21,3 +21,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "Roots"
 include(":app")
+include(":feature:auth")
+include(":core:network")
+include(":core:uikit")
+include(":core:utils")

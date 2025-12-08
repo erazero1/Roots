@@ -42,6 +42,11 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:network"))
+    implementation(project(":core:uikit"))
+    implementation(project(":core:utils"))
+    implementation(project(":feature:auth"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
