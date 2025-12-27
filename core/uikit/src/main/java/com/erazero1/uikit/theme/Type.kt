@@ -1,4 +1,4 @@
-package com.erazero1.roots.ui.theme
+package com.erazero1.uikit.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
